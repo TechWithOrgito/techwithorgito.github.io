@@ -2,6 +2,4 @@
 layout: home
 ---
 
-# Tech with Orgito
-
-Cybersecurity, software engineering, and learning by breaking things.
+Technical blog focused on cybersecurity, software engineering, and breaking things to understand how they work.
