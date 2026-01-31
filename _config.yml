@@ -1,4 +1,28 @@
 title: Tech with Orgito
 description: Cybersecurity, software engineering & CTF writeups
-theme: minima
+url: "https://techwithorgito.github.io"
+baseurl: ""
+
+# Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Kramdown settings for better code blocks
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
