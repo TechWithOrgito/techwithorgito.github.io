@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+    {{ content }}
+  </article>
+</body>
+</html>
